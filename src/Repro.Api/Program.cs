@@ -41,6 +41,8 @@ public class Program
 
         marten.IntegrateWithWolverine().EventForwardingToWolverine();
 
+        marten.ApplyAllDatabaseChangesOnStartup();
+
         var app = builder.Build();
 
         app.UseSwagger();

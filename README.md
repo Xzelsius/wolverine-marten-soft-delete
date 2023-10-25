@@ -11,7 +11,10 @@ docker run --name wolverine-repro -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD
 
 ## Reproduction Steps
 
-TBD
+1. Go to Swagger UI (http://localhost:5255/swagger/index.html)
+2. Create a new Todo
+3. Delete the Todo
+4. Restore the Todo
 
 ## Teardown
 

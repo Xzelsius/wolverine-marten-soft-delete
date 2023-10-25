@@ -1,4 +1,6 @@
-# Wolverine Repro Template
+# Wolverine with Marten Soft-Delete Issue
+
+Restore of a soft-deleted document does not work.
 
 ## Setup
 
